@@ -6,32 +6,75 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    
-    <style>
-        /* General image styling for Portfolio and Case Study sections */
-        #portfolio .image img,
-        #case-studies .image img {
-            width: 100%;          /* Set the image to 100% of its container */
-            max-width: 300px;      /* Maximum width for all images */
-            height: auto;          /* Maintain aspect ratio */
-            display: block;        /* Center image inside its container */
-            margin: 0 auto;        /* Add automatic margins to center-align */
-        }
-    
-        /* Optional: Add padding or margin around the images */
-        #portfolio .content, 
-        #case-studies .content {
-            text-align: center;    /* Center the content and images */
-            padding: 10px;         /* Add some padding for spacing */
-        }
-    
-        /* Reduce section size for better spacing */
-        #portfolio .inner,
-        #case-studies .inner {
-            max-width: 900px;      /* Set a maximum width for the entire inner content */
-            margin: 0 auto;        /* Center the content in the page */
-        }
-    </style>
+
+	<style>
+		/* General Page Background and Text Color */
+		body, .wrapper, .wrapper.style1, .wrapper.style2, .wrapper.style3, .wrapper.style1-alt, .inner {
+			background: #f5f5dc; /* Beige background color */
+			color: #000000; /* Black text */
+		}
+
+		/* Sidebar Styling */
+		#sidebar {
+			background: #ffffff; /* White background for sidebar */
+			color: #000000; /* Black text */
+		}
+
+		#sidebar .inner nav ul li a {
+			color: #000000; /* Black text for sidebar links */
+		}
+
+		/* Section Headings */
+		h1, h2, h3, h4, h5, h6 {
+			color: #000000; /* Black color for headings */
+		}
+
+		/* Text and Link Styling */
+		p, li, a, .button, label, .menu li {
+			color: #000000; /* Black color for general text and links */
+		}
+
+		/* Buttons */
+		.button {
+			background: #ffffff; /* White background for buttons */
+			border: 1px solid #000000; /* Black border */
+			color: #000000; /* Black text */
+		}
+
+		.button:hover {
+			background: #e0e0d1; /* Light beige on hover */
+			color: #000000; /* Ensure text remains black on hover */
+		}
+
+		/* General image styling for Portfolio and Case Study sections */
+		#portfolio .image img,
+		#case-studies .image img {
+			width: 100%;          /* Set the image to 100% of its container */
+			max-width: 300px;      /* Maximum width for all images */
+			height: auto;          /* Maintain aspect ratio */
+			display: block;        /* Center image inside its container */
+			margin: 0 auto;        /* Add automatic margins to center-align */
+		}
+
+		/* Optional: Add padding or margin around the images */
+		#portfolio .content, 
+		#case-studies .content {
+			text-align: center;    /* Center the content and images */
+			padding: 10px;         /* Add some padding for spacing */
+		}
+
+		/* Reduce section size for better spacing */
+		#portfolio .inner,
+		#case-studies .inner {
+			max-width: 900px;      /* Set a maximum width for the entire inner content */
+			margin: 0 auto;        /* Center the content in the page */
+		}
+
+		/* Sidebar link hover styling */
+		#sidebar .inner nav ul li a:hover {
+			color: #e0e0d1; /* Light beige text on hover */
+		}
+	</style>
 </head>
 <body class="is-preload">
 
@@ -66,6 +109,7 @@
 					<p><strong>Client:</strong> PowerLabs Tech<br>
 					<strong>Project URL:</strong> <a href="https://dev-pai-enterprise.powerlabstech.com/analytics" target="_blank">Energy Management System</a></p>
 					<img src="images/pic13.jpg" alt="Energy Management System" style="width:100%; max-width:600px;" />
+					
 					
 					<h4>Overview</h4>
 					<p>This project involved creating advanced analytics functions for an enterprise-level energy management system. The platform helps large organizations monitor and optimize their energy consumption, identify areas for efficiency improvement, and reduce operational costs.</p>
